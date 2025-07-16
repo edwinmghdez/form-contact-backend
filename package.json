@@ -1,0 +1,21 @@
+{
+  "name": "form-contact-backend",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "Edwin Gallegos Hernández",
+  "type": "commonjs",
+  "main": "server.js",
+  "scripts": {
+    "start": "node src/server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.0",
+    "express": "^5.1.0",
+    "express-validator": "^7.2.1",
+    "pg": "^8.16.3",
+    "swagger-jsdoc": "^6.2.8",
+    "swagger-ui-express": "^5.0.1"
+  }
+}
